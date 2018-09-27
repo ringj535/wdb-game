@@ -1,0 +1,93 @@
+/*
+The default style sheet for the entire site.
+*/
+
+
+/*Reset browser's own internal CSS stylesheet before reading this file. */
+/*Note that this approach is no longer recommended. Use a reset.css file instead.*/
+/*
+* {
+    margin: 0;
+    padding: 0;
+}
+*/
+
+body {
+    background-color: #0DFFCD;
+    font-family: 'Notable', sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+    width: 900px;
+}
+
+header {
+    background-color: azure;
+    background-image: url(title-background1.jpg);
+    background-size: 100% 100%;
+    min-height: 300px;
+    font-family: 'Notable', sans-serif;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2em;
+    padding: 189px 119px 26px 83px;
+}
+
+nav {
+    background-color: #00AAFF;
+    float: left;
+    height: 500px;
+    width: 300px;
+}
+
+.main-nav {
+    background-color:#0CCBE8;
+    padding-top: 30px;
+}
+
+.main-nav li {
+    list-style-type: none;
+    padding: 20px;
+    text-align: center;
+    float: right;
+    
+}
+
+.main-nav li a:link {
+    text-decoration: none;
+}
+
+.social-links {
+    background-color:#00E8FF;
+    padding-top: 30px;
+}
+
+.social-links li {
+    list-style-type: none;
+    padding: 28.2px;
+    text-align: center;
+}
+
+.social-links li a:link {
+    text-decoration: none;
+}
+
+main {
+    background-color: #0C65E8;
+    float: right;
+    min-height: 600px;
+    width: 600px;
+}
+
+footer {
+    background-color: #0CD9E8;
+    clear: both;
+    min-height: 80px;
+}
+
+footer > p {
+    font-size: .825em;
+    padding-top: 20px;
+    text-align: center;
+}

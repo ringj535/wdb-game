@@ -1,0 +1,84 @@
+/*
+The default style sheet for the entire site.
+*/
+
+
+/*Reset browser's own internal CSS stylesheet before reading this file. */
+/*Note that this approach is no longer recommended. Use a reset.css file instead.*/
+
+/*
+* {
+    margin: 0;
+    padding: 0;
+}
+*/
+
+body {
+    background-color: #0DFFCD;
+    margin: 0 auto;
+    width:900px;
+}
+
+header {
+    background-color: #0CD9E8;
+    min-height: 50px;
+    
+}
+
+h1 {
+    color: white;
+    padding-top: 10px;
+    font-size: 2em;
+    text-align: center;
+}
+*/
+
+h2 {
+    color: white;
+    
+    
+}
+*/
+
+nav ul {
+    background-color: #00AAFF;
+    list-style-type: none;
+    text-align: center;
+}
+
+
+nav li {
+    display:inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+main {
+    background-color: #0C65E8;
+    min-height: 600px;
+}
+
+footer {
+    background-color: #0CD9E8;
+    min-height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    
+
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+footer li {
+    display:inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+}
